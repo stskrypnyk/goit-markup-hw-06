@@ -257,6 +257,15 @@ img{
 .form-comment{
     display: block;
     margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 1.12;
+    letter-spacing: 0.01em;
+}
+
+.area-comment{
+    font-size: 12px;
+    line-height: 1.12;
+    letter-spacing: 0.01em;
 }
 
 .form-title{
@@ -310,7 +319,10 @@ img{
 }
 
 .form-input:focus,
-.form-input:hover{
+.form-input:hover,
+.area-comment:focus,
+.area-comment:hover
+{
     border-color: var(--color-brand);
 }
 
