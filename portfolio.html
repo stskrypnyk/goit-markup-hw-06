@@ -189,7 +189,7 @@
                 </address>
             </div>
             <div class="subscription">
-                <h2 class="subscription-tittle">Приєднуйтесь</h2>
+                <h2 class="subscription-title">Приєднуйтесь</h2>
                 <ul class="subscription-list">
                     <li class="subscription-item">
                         <a href="#" class="subscription-link">
@@ -220,6 +220,22 @@
                         </a>
                     </li>
                 </ul>
+            </div>
+            <div class="list-mail">
+                <form name="signup_form" novalidate></form>
+                    <h2 class="subscription-title">Підпишіться на розсилку</h2>
+                    <div class="mail-wrap">
+                        <label class="mailing-list" for="email"></label>
+                        <input class="mailing-input" type="email" name="email" placeholder="Email" />
+                        <button type="submit" class="button mailing-btn">Підписатися
+                            <span class="mailing-icon">
+                                <svg class="send-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-send"></use>
+                                </svg>
+                             </span>
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </footer>
