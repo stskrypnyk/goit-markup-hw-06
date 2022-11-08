@@ -56,7 +56,7 @@
                         <div class="modal">
                             <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
                             <form name="contact-form" autocomplete="on">
-                                <label for="person-name" class="form-label">
+                                <label class="form-label">
                                     <span class="input-text">Ім'я</span>
                                         <input class="form-input" type="text" id="name" name="person-name"/>
                                         <svg class="form-icon" width="18" height="18">
@@ -64,7 +64,7 @@
                                         </svg>
                                 </label>
                                 
-                                <label for="tel" class="form-label">
+                                <label class="form-label">
                                     <span class="input-text">Телефон</span>
                                         <input class="form-input" type="tel" name="tel"/>
                                         <svg class="form-icon" width="18" height="18">
@@ -72,7 +72,7 @@
                                         </svg>
                                 </label>
                                 
-                                <label class="form-label" for="email">
+                                <label class="form-label">
                                     <span class="input-text">Пошта</span>
                                         <input class="form-input" type="email" name="email"/>
                                         <svg class="form-icon" width="18" height="18">
@@ -98,7 +98,6 @@
                                 <button type="submit" class="button btn-form">Відправити</button>
                             </form>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -388,7 +387,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container footer-container">
-            <div>
+            <div class="contacts">
             <a href="/" class="logo foot">Web<span class="logo-footer">Studio</span></a>
                 <address>
                     <ul class="foot-link">
@@ -399,7 +398,7 @@
                 </address>
             </div>
             <div class="subscription">
-                <h2 class="subscription-title">Приєднуйтесь</h2>
+                <p class="subscription-title">Приєднуйтесь</p>
                 <ul class="subscription-list">
                     <li class="subscription-item">
                         <a href="#" class="subscription-link">
@@ -432,20 +431,16 @@
                 </ul>
             </div>
             <div class="list-mail">
-                <form name="signup_form" novalidate></form>
-                    <h2 class="subscription-title">Підпишіться на розсилку</h2>
-                    <div class="mail-wrap">
-                        <label class="mailing-list" for="email"></label>
-                        <input class="mailing-input" type="email" name="email" placeholder="Email"/>                                    
-                        <button type="submit" class="button mailing-btn">Підписатися
-                            <span class="mailing-icon">                        
-                                <svg class="send-icon" width="24" height="24">
-                                    <use href="./images/icons.svg#icon-send"></use>
-                                </svg>
-                            </span>
-                        </button>
-                    </div>
-                </form>
+                <p class="subscription-title">Підпишіться на розсилку</p>
+                <form class="mail-wrap">
+                    <label class="mailing-list" for="email"></label>
+                    <input class="mailing-input" type="email" name="email" placeholder="Email"/>                                    
+                    <button type="submit" class="button mailing-btn">Підписатися                        
+                        <svg class="send-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>  
             </div>
         </div>
     </footer>

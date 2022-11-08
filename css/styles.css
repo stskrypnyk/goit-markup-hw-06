@@ -307,11 +307,12 @@ img{
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     display: block;
+    padding-left: 42px;
 }
 
 .form-icon {
     position: relative;
-    bottom: 18px;
+    bottom: 19px;
     left: 12px;
     transform: translateY(-50%);
     fill: var(--color-inverted);
@@ -332,12 +333,15 @@ img{
 }
 
 .area-comment{
+    display: block;
     height: 120px;
     width: 100%;
     border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
     outline: none;
     resize: none;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 12px 16px;
 }
 
 .btn-frm{
@@ -416,7 +420,7 @@ img{
     margin-left: 8px;
 }
 
-.policy-accent-text {
+.policy-text-link {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -426,9 +430,9 @@ img{
 
 
 .close-icon{
-    width: 11px;
-    height: 11px;
-    fill: var(--color-fill-icons);
+    width: 17px;
+    height: 17px;
+    fill: var(--color-black);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -702,6 +706,7 @@ img{
 .footer-container{
     display: flex;
     align-items: baseline;
+    flex-grow: 1;
 }
 
 .foot-link{
@@ -746,7 +751,7 @@ img{
 /* Subscription */
 
 .subscription{
-    padding-left: 70px;
+    margin-left: 70px;
 }
 
 .subscription-title {
@@ -842,8 +847,9 @@ img{
     right: 28px;
 }
 
-.icon-send {
+.send-icon {
     fill: var(--color-background-primary);
+    margin-left: 8px;
 }
 
 /* Portfolio */
