@@ -703,10 +703,13 @@ img{
     padding: 60px 0;
 }
 
+.contacts{
+    flex-grow: 1;
+}
+
 .footer-container{
     display: flex;
     align-items: baseline;
-    flex-grow: 1;
 }
 
 .foot-link{
